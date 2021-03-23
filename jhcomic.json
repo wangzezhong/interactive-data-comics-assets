@@ -1,0 +1,33 @@
+{
+ "gutter": 20,
+ "currentLayout": "init",
+ "layouts": [
+    {
+      "name": "init",
+      "panels": [
+      [
+        "full_dog"
+      ]
+     ]
+    }
+  ],
+ "panels": [
+    {
+      "id": "full_dog",
+      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/dog.svg"
+    }
+ ],
+ "operations": [
+  {
+    "trigger": "mouseover",
+    "element": "tummy",
+    "operation": "highlight",
+    "after": {
+      "style": {
+        "fill": "black",
+        "stroke": "orange"
+      }
+    }
+  }
+ ]
+}
