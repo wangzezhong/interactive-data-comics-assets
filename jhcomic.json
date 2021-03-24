@@ -5,19 +5,37 @@
     {
       "name": "init",
       "panels": [
-        ["full_dog"],
+        ["dog"],
+        ["panel","panel","panel"]
+      ]
+    },
+    {
+      "name": "nose",
+      "panels": [
+        ["dog-nose"],
+        ["panel","panel","panel"]
+      ]
+    },
+    {
+      "name": "tum",
+      "panels": [
+        ["dog-tum"],
         ["panel","panel","panel"]
       ]
     }
   ],
  "panels": [
     {
-      "id": "full_dog",
+      "id": "dog",
       "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/dog.svg"
     },
     {
-      "id": "full_dog-tum",
+      "id": "dog-tum",
       "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/dog-tum.svg"
+    },
+    {
+      "id": "dog-nose",
+      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/dog-nose.svg"
     },
     {
       "id": "panel",
@@ -46,31 +64,39 @@
     }
   },
   {
-    "trigger": "mouseover",
-    "element": "nose-path",
-    "operation": "highlight",
-    "after": {
-      "style": {
-        "stroke": "blue"
-        }
-    }
+    "trigger": "click",
+    "element": "nose",
+    "operation": "replace",
+    "replace": "dog",
+    "newpanels": [
+      "dog-nose"
+    ]
   },
   {
     "trigger": "click",
     "element": "nose",
     "operation": "replace",
-    "replace": "full_dog",
+    "replace": "dog-tum",
     "newpanels": [
-      "full_dog-nose"
+      "dog-nose"
     ]
   },
   {
     "trigger": "click",
     "element": "tummy",
     "operation": "replace",
-    "replace": "full_dog-tum",
+    "replace": "dog",
     "newpanels": [
-      "full_dog-tum"
+      "dog-tum"
+    ]
+  },
+  {
+    "trigger": "click",
+    "element": "tummy",
+    "operation": "replace",
+    "replace": "dog-nose",
+    "newpanels": [
+      "dog-tum"
     ]
   }
  ]
