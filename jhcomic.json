@@ -5,22 +5,8 @@
     {
       "name": "init",
       "panels": [
-        ["dog"],
-        ["panel","panel","panel"]
-      ]
-    },
-    {
-      "name": "nose",
-      "panels": [
-        ["dog-nose"],
-        ["panel","panel","panel"]
-      ]
-    },
-    {
-      "name": "tum",
-      "panels": [
-        ["dog-tum"],
-        ["panel","panel","panel"]
+        ["dog"]
+        
       ]
     }
   ],
@@ -38,8 +24,12 @@
       "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/dog-nose.svg"
     },
     {
-      "id": "panel",
-      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/panel.svg"
+      "id": "panels-nose",
+      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/panels-nose.svg"
+    },
+    {
+      "id": "panels-tummy",
+      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/panels-tummy.svg"
     }
  ],
  "operations": [
