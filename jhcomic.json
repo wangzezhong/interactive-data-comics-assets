@@ -24,7 +24,7 @@
  "panels": [
     {
       "id": "dog",
-      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/dog.svg"
+      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/main-panel.svg"
     },
     {
       "id": "dog-tum",
