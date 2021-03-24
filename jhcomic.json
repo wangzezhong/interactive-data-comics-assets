@@ -37,7 +37,7 @@
   },
   {
     "trigger": "mouseover",
-    "element": "Nose",
+    "element": "nose",
     "operation": "highlight",
     "after": {
       "style": {
@@ -57,11 +57,11 @@
   },
   {
     "trigger": "click",
-    "element": "tummy",
+    "element": "nose",
     "operation": "replace",
     "replace": "full_dog",
     "newpanels": [
-      "full_dog-tum"
+      "full_dog-nose"
     ]
   },
   {
@@ -70,7 +70,7 @@
     "operation": "replace",
     "replace": "full_dog-tum",
     "newpanels": [
-      "full_dog"
+      "full_dog-tum"
     ]
   }
  ]
