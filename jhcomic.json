@@ -6,8 +6,19 @@
       "name": "init",
       "panels": [
         ["dog"]
-        
       ]
+    },
+    {
+        "name": "tum",
+        "panels": [
+            ["panels-tummy"]
+        ]
+    },
+    {
+        "name": "nose",
+        "panels": [
+            ["panels-nose"]
+        ]
     }
   ],
  "panels": [
@@ -55,39 +66,19 @@
   },
   {
     "trigger": "click",
-    "element": "nose",
-    "operation": "replace",
-    "replace": "dog",
-    "newpanels": [
-      "dog-nose"
-    ]
-  },
-  {
-    "trigger": "click",
-    "element": "nose",
-    "operation": "replace",
-    "replace": "dog-tum",
-    "newpanels": [
-      "dog-nose"
-    ]
-  },
-  {
-    "trigger": "click",
     "element": "tummy",
-    "operation": "replace",
-    "replace": "dog",
-    "newpanels": [
-      "dog-tum"
-    ]
+    "operation": "loadLayout",
+    "layout": [["panels-tummy"]],
+    "after": "dog",
+    "group": "group1"
   },
   {
     "trigger": "click",
-    "element": "tummy",
-    "operation": "replace",
-    "replace": "dog-nose",
-    "newpanels": [
-      "dog-tum"
-    ]
+    "element": "nose",
+    "operation": "loadLayout",
+    "layout": [["panels-nose"]],
+    "after": "dog",
+    "group": "group1"
   }
  ]
 }
