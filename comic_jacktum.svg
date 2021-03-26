@@ -46,22 +46,22 @@
 	<path id="nose_1_" style="stroke:#000000;" d="M80,122.1v7.6c9.3,13.6,27.8,17.1,41.4,7.8c8.1-5.6,13-14.8,13-24.6
 		c0-3.9-0.8-7.8-2.3-11.4h-31.4c-11.3-0.1-20.6,9-20.7,20.4C80,121.9,80,122,80,122.1z"/>
 	<g id="back_2_">
-		<circle style="fill:#D6D6D6;" cx="325.1" cy="162.6" r="1.8"/>
-		<circle style="fill:#D6D6D6;" cx="340.9" cy="159.7" r="1.1"/>
-		<circle style="fill:#D6D6D6;" cx="336.6" cy="165.3" r="1.1"/>
-		<circle style="fill:#D6D6D6;" cx="305" cy="168.2" r="1.1"/>
-		<circle style="fill:#D6D6D6;" cx="355.6" cy="163.5" r="0.9"/>
-		<circle style="fill:#D6D6D6;" cx="357.7" cy="173.2" r="1.2"/>
-		<circle style="fill:#D6D6D6;" cx="375.2" cy="173.2" r="1.9"/>
-		<circle style="fill:#D6D6D6;" cx="364.8" cy="163.5" r="1.9"/>
-		<circle style="fill:#D6D6D6;" cx="348.2" cy="168.2" r="1.9"/>
-		<circle style="fill:#D6D6D6;" cx="337.2" cy="174.5" r="1.9"/>
-		<circle style="fill:#D6D6D6;" cx="346.3" cy="158.8" r="1.9"/>
-		<circle style="fill:#D6D6D6;" cx="317" cy="166.2" r="1.9"/>
-		<circle style="fill:#D6D6D6;" cx="322" cy="171.9" r="1.2"/>
-		<circle style="fill:#D6D6D6;" cx="306.7" cy="163.7" r="1.6"/>
-		<circle style="fill:#D6D6D6;" cx="294.3" cy="167.1" r="1.2"/>
-		<circle style="fill:#D6D6D6;" cx="356.6" cy="181.4" r="1.1"/>
+		<circle id="back_18_" style="fill:#D6D6D6;" cx="325.1" cy="162.6" r="1.8"/>
+		<circle id="back_17_" style="fill:#D6D6D6;" cx="340.9" cy="159.7" r="1.1"/>
+		<circle id="back_16_" style="fill:#D6D6D6;" cx="336.6" cy="165.3" r="1.1"/>
+		<circle id="back_15_" style="fill:#D6D6D6;" cx="305" cy="168.2" r="1.1"/>
+		<circle id="back_14_" style="fill:#D6D6D6;" cx="355.6" cy="163.5" r="0.9"/>
+		<circle id="back_13_" style="fill:#D6D6D6;" cx="357.7" cy="173.2" r="1.2"/>
+		<circle id="back_12_" style="fill:#D6D6D6;" cx="375.2" cy="173.2" r="1.9"/>
+		<circle id="back_11_" style="fill:#D6D6D6;" cx="364.8" cy="163.5" r="1.9"/>
+		<circle id="back_10_" style="fill:#D6D6D6;" cx="348.2" cy="168.2" r="1.9"/>
+		<circle id="back_9_" style="fill:#D6D6D6;" cx="337.2" cy="174.5" r="1.9"/>
+		<circle id="back_8_" style="fill:#D6D6D6;" cx="346.3" cy="158.8" r="1.9"/>
+		<circle id="back_7_" style="fill:#D6D6D6;" cx="317" cy="166.2" r="1.9"/>
+		<circle id="back_6_" style="fill:#D6D6D6;" cx="322" cy="171.9" r="1.2"/>
+		<circle id="back_5_" style="fill:#D6D6D6;" cx="306.7" cy="163.7" r="1.6"/>
+		<circle id="back_4_" style="fill:#D6D6D6;" cx="294.3" cy="167.1" r="1.2"/>
+		<circle id="back_3_" style="fill:#D6D6D6;" cx="356.6" cy="181.4" r="1.1"/>
 	</g>
 </g>
 </svg>

@@ -44,7 +44,7 @@
     "after": {
       "style": {
         "fill": "orange",
-        "stroke": "blue"
+        "stroke": "orange"
         }
     }
   },
@@ -54,7 +54,19 @@
     "operation": "highlight",
     "after": {
       "style": {
-        "stroke": "blue"
+        "fill": "orange",
+        "stroke": "orange"
+        }
+    }
+  },
+  {
+    "trigger": "mouseover",
+    "element": "back",
+    "operation": "highlight",
+    "after": {
+      "style": {
+        "fill": "orange",
+        "stroke": "orange"
         }
     }
   },
