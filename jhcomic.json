@@ -1,5 +1,5 @@
 {
- "gutter": 20,
+ "gutter": 0,
  "currentLayout": "init",
  "layouts": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "dog-nose",
-      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/main-panelnose.svg"
+      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/main-panel-nose.svg"
     },
     {
       "id": "panels-nose",
@@ -69,8 +69,8 @@
     "trigger": "click",
     "element": "nose",
     "operation": "loadLayout",
-    "layout": [["panels-nose"]],
-    "after": "dog",
+    "layout": [["dog-nose"],["panels-nose"]],
+    "after": "title",
     "group": "group1"
   }
  ]
