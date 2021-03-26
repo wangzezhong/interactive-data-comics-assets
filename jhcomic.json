@@ -100,7 +100,7 @@
   {
     "trigger": "click",
     "operation": "loadLayout",
-    "element": "next-tummy-1",
+    "element": "next",
     "layout": [["tummy-panels2"]],
     "after": "dog",
     "group": "group1"
