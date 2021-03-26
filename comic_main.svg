@@ -3,7 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="496px"
 	 height="326.2px" viewBox="0 0 496 326.2" style="enable-background:new 0 0 496 326.2;" xml:space="preserve">
 <g id="Layer_1">
-	<rect x="6" y="4.4" style="fill:#D6D6D6;" width="481.4" height="316.2"/>
+	<rect x="6" y="4.4" style="fill:#D6D6D6;stroke:#000000;stroke-miterlimit:10;" width="481.4" height="316.2"/>
 	<path style="fill:#A6AD00;" d="M315.1,237.7c1.9-1.1,4.4-0.4,5.4,1.5c0.2,0.3,0.3,0.6,0.4,0.9l0.3,1.2c1.5,5.2,5.4,9.3,10.5,10.9
 		l4.9,1.6c2.3,0.8-3.4,17.2-3.7,17.5l-3.8,3.8c-1.6,1.6-1.5,4.1,0,5.7c0.7,0.7,1.6,1.1,2.6,1.1h0.1l11.6,0.3c2.7,0,4.8-2.1,4.8-4.8
 		l6.6-30.1c0.1-0.7-0.3-6.2-4.9-8.2c-4-1.7-2.9-11.4-1.8-21.1"/>

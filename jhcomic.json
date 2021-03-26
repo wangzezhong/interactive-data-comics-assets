@@ -29,11 +29,11 @@
     },
     {
       "id": "tummy-panels2",
-      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/comic_tummy-panels2.svg"
+      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/comic_tummy-panels3.svg"
     },
     {
       "id": "tummy-panels3",
-      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/comic_tummy-panels3.svg"
+      "url": "https://raw.githubusercontent.com/oseph/interactive-data-comics-assets/main/comic_tummy-panels2.svg"
     }
  ],
  "operations": [
@@ -71,10 +71,45 @@
     }
   },
   {
+    "trigger": "mouseover",
+    "element": "next-tummy-1",
+    "operation": "highlight",
+    "after": {
+      "style": {
+        "fill": "blue",
+        "stroke": "orange"
+        }
+    }
+  },
+  {
     "trigger": "click",
     "operation": "loadLayout",
     "element": "tummy",
     "layout": [["tummy-panels1"]],
+    "after": "dog",
+    "group": "group1"
+  },
+  {
+    "trigger": "click",
+    "operation": "loadLayout",
+    "element": "nose",
+    "layout": [["nose-panels1"]],
+    "after": "dog",
+    "group": "group1"
+  },
+  {
+    "trigger": "click",
+    "operation": "loadLayout",
+    "element": "next-tummy-1",
+    "layout": [["tummy-panels2"]],
+    "after": "dog",
+    "group": "group1"
+  },
+  {
+    "trigger": "click",
+    "operation": "loadLayout",
+    "element": "next-tummy-2",
+    "layout": [["tummy-panels3"]],
     "after": "dog",
     "group": "group1"
   }
